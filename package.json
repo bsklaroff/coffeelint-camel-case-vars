@@ -2,7 +2,7 @@
   "name": "coffeelint-camel-case-vars",
   "version": "0.0.4",
   "description": "A CoffeeLint rule that ensures variables are camelCased",
-  "main": "index.js",
+  "main": "index.coffee",
   "repository": {
     "type": "git",
     "url": "git://github.com/bsklaroff/coffeelint-camel-case-vars.git"

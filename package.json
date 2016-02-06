@@ -1,6 +1,6 @@
 {
   "name": "coffeelint-camel-case-vars",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A CoffeeLint rule that ensures variables are camelCased",
   "main": "index.js",
   "repository": {
@@ -16,14 +16,15 @@
   "bugs": {
     "url": "https://github.com/bsklaroff/coffeelint-camel-case-vars/issues"
   },
-  "dependencies": {
-    "coffee-script": "^1.8.0"
+  "devDependencies": {
+    "coffee-script": "^1.9.3"
   },
   "peerDependencies": {
     "coffeelint": "^1.5"
   },
   "homepage": "https://github.com/bsklaroff/coffeelint-camel-case-vars",
   "scripts": {
+    "prepublish": "coffee -c index.coffee",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
